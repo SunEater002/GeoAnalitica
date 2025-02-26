@@ -30,3 +30,8 @@ Este proyecto es una página web dedicada a la geometría analítica. La página
 1. Clona el repositorio en tu máquina local.
    ```bash
    git clone https://github.com/tu-usuario/tu-repositorio.git
+
+## Visualizar pagina en:
+
+   geoanalitic.netlify.app
+
