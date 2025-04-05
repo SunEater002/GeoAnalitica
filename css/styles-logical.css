@@ -237,7 +237,7 @@ img#simetrica{
     margin: 15% auto; 
     padding: 20px;
     border: 1px solid #888;
-    width: 80%; 
+    width: 85%; 
 }
 
 .close {
@@ -245,6 +245,11 @@ img#simetrica{
     float: right;
     font-size: 28px;
     font-weight: bold;
+    transition: color 0.3s ease-in-out;
+    -webkit-transition: color 0.3s ease-in-out;
+    -moz-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
+    -ms-transition: color 0.3s ease-in-out;
 }
 
 .close:hover,
@@ -313,10 +318,6 @@ blockquote span::before{
 
 .main-content {
     padding-inline: 16px;
-}
-
-.slider{
-    /*border: 1px solid red;*/
 }
 
 .slider-container{
@@ -484,3 +485,31 @@ blockquote span::before{
         }
 }
       
+
+/* diseño del memorama */
+
+.btn-memorama {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background: linear-gradient(45deg, #61abff, #66f5ff);
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .btn-memorama:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .btn-memorama .icon {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+  }
